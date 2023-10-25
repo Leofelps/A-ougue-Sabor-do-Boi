@@ -10,7 +10,7 @@
 
 body {
     width: 100%;
-    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+    overflow-x: hidden;
 }
 
 /*Navegação*/
@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: #FCFCFC;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); /* Adicionando sombra inferior */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -62,11 +62,11 @@ header {
     width: 0;
     height: 2px;
     background-color: #DA292A;
-    transition: width 0.3s; /* Define a animação de transição */
+    transition: width 0.3s;
   }
   
   .itens-navegacao > .item > a:hover::before {
-    width: 100%; /* Define a largura da barrinha ao passar o mouse sobre o link */
+    width: 100%;
  
   }
   
@@ -282,7 +282,7 @@ header {
 }
 
 .card {
-    position: relative; /* Adicionando position relative */
+    position: relative;
     border-radius: 15px;
     overflow: hidden;
     max-width: 300px;
@@ -295,11 +295,11 @@ header {
     width: 100%;
     height: 100%;
     display: block;
-    transition: transform 0.3s ease; /* Adiciona transição para o efeito de escala */
+    transition: transform 0.3s ease; 
 }
 
 .card:hover img {
-    transform: scale(1.1); /* Aumenta a escala da imagem ao passar o mouse */
+    transform: scale(1.1);
 }
 
 .footer-card {
@@ -317,8 +317,8 @@ header {
     text-decoration: none;
     color: black;
     font-size: 15px;
-    position: relative; /* Adiciona posicionamento relativo */
-    width: 100%; /* Adiciona largura de 100% ao link */
+    position: relative;
+    width: 100%; 
 }
 
 
@@ -331,11 +331,11 @@ header {
     width: 0;
     height: 1px;
     background-color: black;
-    transition: width 0.3s ease; /* Adiciona transição para a animação */
+    transition: width 0.3s ease;
 }
 
 .card .footer-card a:hover::after {
-    width: 100%; /* Quando o link é hover, a largura da barra aumenta */
+    width: 100%;
 }
 
 .opcoes-produtos-titulos {
@@ -365,7 +365,7 @@ header {
 
 .product-card {
     border-radius: 10px;
-    width: 100vw; /* Largura fixa do card */
+    width: 100vw;
     display: flex;
     gap: 50px;
 }
@@ -376,10 +376,10 @@ header {
 }
 
 .product-image-container img {
-    width: 100%; /* A imagem se estenderá até as bordas do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%;
+    height: auto; 
     border-radius: 5px;
-    object-fit: cover; /* Mantém proporções e corta quando necessário */
+    object-fit: cover;
 }
 
 .product-info {
@@ -391,7 +391,7 @@ header {
 .product-info > p,
 .product-info > ul {
     margin-bottom: 20px;
-    color: #000000; /* Cor do texto alterada */
+    color: #000000;
 }
 
 .product-info > ul > li {
@@ -401,14 +401,14 @@ header {
 
 .product-price {
     font-size: 1.5em;
-    color: #DA292A; /* Cor do preço alterada */
+    color: #DA292A;
     font-weight: 500;
 }
 
 .product-info h2 {
     font-size: 1.4em;
     font-weight: 500;
-    color: #000000; /* Cor do título alterada */
+    color: #000000;
 }
 
 .product-info .product-description {
@@ -431,7 +431,7 @@ header {
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 5px; /* Adicionada borda arredondada */
+    border-radius: 5px;
 }
 
 .thumbnails {
@@ -482,7 +482,7 @@ header {
 .accordion-section {
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Ajuste os valores aqui */
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .accordion-title {
@@ -504,7 +504,7 @@ header {
 
 
 .accordion-content p {
-    margin: 0 25px 25px; /* Margens superior e inferior são 0, margem direita e esquerda são 25px */
+    margin: 0 25px 25px;
     font-size: 16px;
 }
 
@@ -516,14 +516,14 @@ header {
 }
 
 .accordion-section.show .accordion-content {
-    max-height: 1000px; /* Ajuste este valor conforme necessário */
-    transition: max-height 0.3s ease; /* Adicione esta linha para suavizar a animação de abertura */
+    max-height: 1000px;
+    transition: max-height 0.3s ease;
 }
 
 
 .show {
-    max-height: 1000px; /* Ajuste este valor conforme necessário */
-    transition: max-height 0.3s ease; /* Adicione esta linha para suavizar a animação de fechamento */
+    max-height: 1000px;
+    transition: max-height 0.3s ease;
 }
 
 
@@ -600,7 +600,7 @@ margin-bottom: 50px;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
-    position: relative; /* Adicionando posicionamento relativo */
+    position: relative;
     
 }
 

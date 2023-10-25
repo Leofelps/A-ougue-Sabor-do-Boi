@@ -93,13 +93,13 @@ header {
 .imagem-contato {
     position: relative;
     max-width: 60vw;
-    margin: 0 auto; /* Centraliza a imagem */
+    margin: 0 auto;
     margin-top: 100px;
 }
 
 .imagem-contato img {
     width: 100%;
-    height: 400px; /* Altere para o valor desejado */
+    height: 400px;
     display: block;
     object-fit: cover;
     border-radius: 30px;
@@ -110,9 +110,9 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Cor do texto */
+    color: #fff;
     text-align: center;
-    z-index: 2; /* Garante que o título esteja sobre a imagem */
+    z-index: 2;
     font-weight: 500;
 }
 
@@ -121,9 +121,9 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Cor do texto */
+    color: #fff;
     text-align: center;
-    z-index: 2; /* Garante que o título esteja sobre a imagem */
+    z-index: 2;
     font-weight: 500;
 }
 
@@ -132,9 +132,9 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff; /* Cor do texto */
+    color: #fff;
     text-align: center;
-    z-index: 2; /* Garante que o título esteja sobre a imagem */
+    z-index: 2;
     font-weight: 500;
     margin-top: 50px;
 }
@@ -147,8 +147,8 @@ header {
     left: 0;
     width: 60vw;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Cor da película escura */
-    z-index: 1; /* Garante que a película esteja entre a imagem e o texto */
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
     border-radius: 30px;
 
 }
@@ -163,7 +163,7 @@ header {
 }
 
 .logo img {
-    z-index: 2; /* Certifique-se de que o z-index do logo seja maior do que o do header */
+    z-index: 2;
 }
 
 .navegacao > .icones-redes-sociais > i{
@@ -184,10 +184,10 @@ header {
 }
 
 button {
-    margin: 0 auto; /* Adiciona margem automática para centralizar */
-    display: block; /* Garante que o botão ocupe toda a largura disponível */
-    width: 200px; /* Define uma largura para o botão */
-    margin-top: 20px; /* Adiciona um espaçamento superior */
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 20px;
     background-color: #000000;
     color: #fff;
     border: none;
