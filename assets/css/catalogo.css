@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden; /* Impede a barra de rolagem horizontal */
+
+}
+/*Navegação*/
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #FCFCFC;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1); /* Adicionando sombra inferior */
+
+}
+
+.navegacao {
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu-navegacao > .itens-navegacao {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.itens-navegacao > .item > a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+  }
+
+  .itens-navegacao > .item > a:hover {
+    transition: all 0.3s;
+    color: #DA292A;
+  }
+  
+  .itens-navegacao > .item > a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #DA292A;
+    transition: width 0.3s; /* Define a animação de transição */
+  }
+  
+  .itens-navegacao > .item > a:hover::before {
+    width: 100%; /* Define a largura da barrinha ao passar o mouse sobre o link */
+ 
+  }
+  
+
+.logo img {
+    height: auto;
+    width: 150px;
+    margin-top: 65px;
+}
+
+.navegacao > .botao-whatsapp > i{
+    background-color: #DA292A;
+    text-align: center;
+    padding: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+    border-radius: 0 0 20px 0;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+/*Catalogo produtos*/
+
+.catalogo-de-produtos {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    min-height: calc(100vh - 10vh); /* Ajusta a altura mínima do catálogo para não sobrepor o footer */
+    padding-bottom: 100px;
+     margin-top: 100px;
+}
+
+.container-produtos {
+    width: 60vw;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+#listaProdutos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto {
+    border: 1px solid #E1E1E1;
+    padding: 20px;
+    max-width: 275px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 400px;
+    margin-bottom: 18px;
+}
+
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.produto h2 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 400;
+
+}
+
+.produto p {
+    font-size: 18px;
+    font-weight: 550;
+    margin: 0;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+footer .copyright-container{
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+footer h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.pickup-location,
+.contacts,
+.stay-in-touch,
+.company,
+.shop,
+.delivery,
+.legal {
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer .stay-in-touch a i {
+    margin-right: 5px;
+}
+
+footer .logo-rodape img {
+    width: 160px;
+    height: auto;
+    margin-top: 0;
+}
+
+.copyright-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #000000;
+}
+
+
+
+
+

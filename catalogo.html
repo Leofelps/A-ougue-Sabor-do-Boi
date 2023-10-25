@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/catalogo.css">
+    <script src="assets/scripts/catalogo.js"></script>
+    <script src="https://kit.fontawesome.com/a2cd86af6b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="navegacao">
+                <div class="logo"><img src="/images/sabordoboilogo.png" alt="logo"></div>
+                <div class="menu-navegacao">
+                    <ul class="itens-navegacao">
+                        <li class="item"><a href="index.html">Início</a></li>
+                        <li class="item"><a href="index.html#sobre-nos">Sobre nós</a></li>
+                        <li class="item"><a href="catalogo.html">Produtos</a></li>
+                        <li class="item"><a href="contato.html">Contate-nos</a></li>
+                        <li class="item"><a href="#avaliacoes">Avaliações</a></li>
+                        <li class="item"><a href="contato.html#localizacao">Localização</a></li>
+                    </ul>
+                </div>     
+                <div class="botao-whatsapp">
+                    <i class="fa-brands fa-whatsapp"><span> (15) 91345-6789</span></i>
+                </div>
+            </nav>
+        </header>
+        <section class="catalogo-de-produtos">
+            <article class="container-produtos">
+                <p>Ordenar por:</p>
+                <select id="filtroProdutos">
+                    <option value="todos">Todos</option>
+                    <option value="exotico">Corte Exótico</option>
+                    <option value="nobres">Carnes Nobres</option>
+                    <option value="mar">Frutos do Mar</option>
+                    <option value="frango">Frango</option>
+                    <option value="maiorPreco">Maior preço</option>
+                    <option value="menorPreco">Menor preço</option>
+                </select>
+            
+                <div id="listaProdutos">
+                    <!-- Aqui serão exibidos os produtos filtrados -->
+                    <div class="produto nobres" data-preco="50">
+                        <img src="https://superprix.vteximg.com.br/arquivos/ids/175738-600-600/File-Mignon-Bovino-800g--2-.png?v=636355495441400000" alt="Carne Nobre">
+                        <h2>Filé Mignon</h2>
+                        <p>R$ 50,00</p>
+                    </div>
+                    <div class="produto nobres" data-preco="60">
+                        <img src="https://cdn.sistemawbuy.com.br/arquivos/aa0543e6e28970c84ad7321d40710790/produtos/6414a30c284ca/picanha-fresca-644da1b95ddc6.jpg" alt="Carne Nobre">
+                        <h2>Picanha Premium</h2>
+                        <p>R$ 60,00</p>
+                    </div>
+                    <div class="produto nobres" data-preco="60">
+                        <img src="https://s.cornershopapp.com/product-images/6386662.png?versionId=Yp5WajIW.b5CerNC1Hz1hwxYzqH6pCTH" alt="Carne Nobre">
+                        <h2>Contrafilé Angus</h2>
+                        <p>R$ 60,00</p>
+                    </div>
+                    <div class="produto nobres" data-preco="60">
+                        <img src="https://storage.googleapis.com/phygital_files/mercadomjr/uploads/produto/maminha_especial_kg_68a2359e-a9d1-435c-81ba-348f03e22421.jpg" alt="Carne Nobre">
+                        <h2>Maminha Especial</h2>
+                        <p>R$ 60,00</p>
+                    </div>
+                    <div class="produto nobres" data-preco="60">
+                        <img src="https://images.tcdn.com.br/img/img_prod/756961/prime_rib_porcionado_carapreta_10kg_r_86_00_53_1_20200228144917.jpeg" alt="Carne Nobre">
+                        <h2>Costela Prime</h2>
+                        <p>R$ 60,00</p>
+                    </div>
+                    <div class="produto nobres" data-preco="60">
+                        <img src="https://frigocentral.com.br/wp-content/uploads/2018/05/paleta.jpg" alt="Carne Nobre">
+                        <h2>Paleta de Cordeiro</h2>
+                        <p>R$ 60,00</p>
+                    </div>
+                  
+                    <div class="produto nobres" data-preco="60">
+                        <img src="https://img.sitemercado.com.br/produtos/8c4188ced7f9878c7a263d8985ec632416f178d1a07309ab4b3d20e9a43a9828_full.jpg" alt="Carne Nobre">
+                        <h2>Picanha Argentina</h2>
+                        <p>R$ 60,00</p>
+                    </div>
+                    <div class="produto nobres" data-preco="60">
+                        <img src="https://prd360hyper-17e49.kxcdn.com/images/thumbs/0008901_coracao-de-alcatra-black-angus_550.png" alt="Carne Nobre">
+                        <h2>Alcatra Black Angus</h2>
+                        <p>R$ 60,00</p>
+                    </div>
+                    
+                    <div class="produto exotico" data-preco="70">
+                        <img src="https://media.istockphoto.com/id/536508853/pt/foto/bifes-de-canguru-isolado-sobre-um-fundo-branco.jpg?s=612x612&w=0&k=20&c=ZihFygbqg6tspl5a-8ZeQNU1wM11SaPXkG6VPn2NVOI=" alt="Corte Exótico">
+                        <h2>Canguru Australiano</h2>
+                        <p>R$ 70,00</p>
+                    </div>
+                    <div class="produto exotico" data-preco="80">
+                        <img src="https://espetinhodesucesso.com.br/wp-content/uploads/2022/07/carne-de-avestruz.jpg" alt="Corte Exótico">
+                        <h2>Bife de Avestruz</h2>
+                        <p>R$ 80,00</p>
+                    </div>
+                    <div class="produto exotico" data-preco="70">
+                        <img src="https://media.istockphoto.com/id/104242074/pt/foto/roe-deer-estrogonofe.jpg?s=612x612&w=0&k=20&c=z2MEqLN2mBM0QeTYplHa1js9AUp_0zkWFJX_ukVtrzE=" alt="Corte Exótico">
+                        <h2>Bife de Veado</h2>
+                        <p>R$ 95,00</p>
+                    </div>
+                    <div class="produto exotico" data-preco="70">
+                        <img src="https://thumbs.dreamstime.com/b/raw-bison-meat-white-background-198863865.jpg" alt="Corte Exótico">
+                        <h2>Bife de Bison</h2>
+                        <p>R$ 120,00</p>
+                    </div>
+                    <div class="produto mar" data-preco="85">
+                        <img src="https://orcapescados.com.br/wp-content/uploads/2016/04/rosa-limpo-GG.jpg" alt="Fruto do Mar">
+                        <h2>Camarão</h2>
+                        <p>R$ 85,00</p>
+                    </div>
+                    <div class="produto mar" data-preco="85">
+                        <img src="https://img.freepik.com/fotos-premium/file-de-atum-no-fundo-branco_978449-427.jpg" alt="Fruto do Mar">
+                        <h2>Atum</h2>
+                        <p>R$ 85,00</p>
+                    </div>
+                    <div class="produto mar" data-preco="85">
+                        <img src="https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202011/11/05218234000505____2__600x600.jpg" alt="Fruto do Mar">
+                        <h2>Lula Fresca</h2>
+                        <p>R$ 85,00</p>
+                    </div>
+                    <div class="produto mar" data-preco="95">
+                        <img src="https://res.cloudinary.com/fonte-online/image/upload/c_fill,h_600,q_auto,w_600/v1/PDO_PROD/570063_1" alt="Fruto do Mar">
+                        <h2>Polvo Selvagem</h2>
+                        <p>R$ 95,00</p>
+                    </div>
+
+                    
+                    <div class="produto frango" data-preco="30">
+                        <img src="https://images-americanas.b2w.io/produtos/5131533835/imagens/file-de-peito-de-frango-organico-em-bifes-natural-meat-600g/5131533835_1_large.jpg" alt="Frango">
+                        <h2>Peito de Frango Orgânico</h2>
+                        <p>R$ 30,00</p>
+                    </div>
+                    <div class="produto frango" data-preco="20">
+                        <img src="https://coopsp.vtexassets.com/arquivos/ids/215842-800-auto?v=637919530053600000&width=800&height=auto&aspect=true" alt="Frango">
+                        <h2>Coxinha da Asa de Frango</h2>
+                        <p>R$ 20,00</p>
+                    </div>
+                    <div class="produto frango" data-preco="30">
+                        <img src="https://coopsp.vtexassets.com/arquivos/ids/216052-800-auto?v=637919531253100000&width=800&height=auto&aspect=true" alt="Frango">
+                        <h2>Peito de Frango</h2>
+                        <p>R$ 30,00</p>
+                    </div>
+                    <div class="produto frango" data-preco="30">
+                        <img src="https://ibassets.com.br/ib.item.image.big/b-c23e55475b90435aae5ce84d4a8ead08.jpeg" alt="Frango">
+                        <h2>Asa de Frango</h2>
+                        <p>R$ 30,00</p>
+                    </div>
+                    <!-- Adicionando mais opções de frango -->
+                    <div class="produto frango" data-preco="20">
+                        <img src="https://supermercadobomdemais.com.br/wp-content/uploads/2020/05/Coxa-de-Frango-Perdig%C3%A3o.png" alt="Frango">
+                        <h2>Coxa de Frango</h2>
+                        <p>R$ 20,00</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="pickup-location">
+                <h3>Ponto de Retirada</h3>
+                <p>Rua Fictícia, Bairro Imaginário, Cidade dos Sonhos. </p>
+                <p>Segunda a Sábado: 9h - 17h</p>
+                <p>Domingo: Entregas somente no RJ</p>
+            </div>
+
+            <div class="contacts">
+                <h3>Contatos</h3>
+                <p>Tel: +55 12345 6789</p>
+                <p>Cel: +55 12345 6789</p>
+                <p>contato@email.com</p>
+            </div>
+
+            <div class="logo-rodape">
+                <img src="/images/sabordoboilogo.png" alt="Logo do site">
+            </div>
+
+            <div class="stay-in-touch">
+                <h3>Mantenha-se Conectado</h3>
+                <a href="#"><i class="fab fa-envelope"></i> E-mail</a>
+                <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+
+            <div class="legal">
+                <h3>Legal</h3>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos e Condições</a>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <div class="copyright">
+                <p>&copy; 2023 Leonardo Camargo. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

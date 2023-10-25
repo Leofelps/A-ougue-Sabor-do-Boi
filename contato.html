@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="assets/scripts/contato.js"></script>
+    <link rel="stylesheet" href="assets/css/contato.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="navegacao">
+                <div class="logo"><img src="/images/sabordoboilogo.png" alt="logo"></div>
+                <div class="menu-navegacao">
+                    <ul class="itens-navegacao">
+                        <li class="item"><a href="index.html">Início</a></li>
+                        <li class="item"><a href="index.html#sobre-nos">Sobre nós</a></li>
+                        <li class="item"><a href="catalogo.html">Produtos</a></li>
+                        <li class="item"><a href="contato.html">Contate-nos</a></li>
+                        <li class="item"><a href="index.html#avaliacoes">Avaliações</a></li>
+                        <li class="item"><a href="contato.html#localizacao">Localização</a></li>
+                    </ul>
+                </div>     
+                <div class="botao-whatsapp">
+                    <i class="fa-brands fa-whatsapp"><span> (15) 91345-6789</span></i>
+                </div>
+            </nav>
+        </header>
+        <div class="imagem-contato">
+            <div class="imagem-contato-conteudo">
+                <img src="images/acougueiro-senior-esperando-a-ordem.jpg" alt="">
+                <h1>Contate-nos</h1>
+                <p>Estamos aqui para ajudar</p>
+            </div>
+        </div>
+        
+       <section class="contate-nos">
+           <div class="card">
+               <div class="contatos">
+                   <div class="formulario">
+                       <form action="#" onsubmit="return validarFormulario()">
+                           <div class="form-group">
+                               <label for="nome">Nome:</label>
+                               <input type="text" id="nome" name="nome" required>
+                           </div>
+       
+                           <div class="form-group">
+                               <label for="email">Email:</label>
+                               <input type="email" id="email" name="email" required>
+                           </div>
+       
+                           <div class="form-group">
+                               <label for="telefone">Telefone:</label>
+                               <input type="text" id="telefone" name="telefone" required>
+                           </div>
+       
+                           <div class="form-group">
+                               <label>Preferência:</label>
+                               <div class="preferencia">
+                                   <label><input type="radio" name="preferencia" value="Carnes exóticas"> Carnes exóticas</label><br>
+                                   <label><input type="radio" name="preferencia" value="Carnes tradicionais"> Carnes tradicionais</label><br>
+                                   <label><input type="radio" name="preferencia" value="Ambas"> Ambas</label>
+                               </div>
+                           </div>
+       
+                           <div class="form-group">
+                               <label for="tipoCarne">Tipo de Carne Favorita:</label>
+                               <select id="tipoCarne" name="tipoCarne" required>
+                                   <option value="Bovina">Bovina</option>
+                                   <option value="Suína">Suína</option>
+                                   <option value="Aves">Aves</option>
+                                   <option value="Frutos do Mar">Frutos do Mar</option>
+                                   <option value="Outras">Outras</option>
+                               </select>
+                           </div>
+       
+                           <div class="form-group">
+                               <label>Receber comunicações por:</label>
+                               <div class="comunicacoes">
+                                   <label><input type="checkbox" name="comunicacoes" value="Todos os meios"> Todos os meios</label><br>
+                                   <label><input type="checkbox" name="comunicacoes" value="Email"> Email</label><br>
+                                   <label><input type="checkbox" name="comunicacoes" value="SMS"> SMS</label>
+                               </div>
+                           </div>
+       
+                           <div class="form-group">
+                               <label for="mensagem">Mensagem:</label>
+                               <textarea id="mensagem" name="mensagem" required></textarea>
+                           </div>
+       
+                           <button type="submit">Enviar</button>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <section id="localizacao">
+        <article class="localizacao-container">
+            <h1>Encontre-nos no mapa</h1>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14695.519924700038!2d-43.1937555!3d-22.9546468!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fe09f028e33%3A0x26e83ef7e4032ed2!2sDel%C3%ADcias%20da%20Carne%20Ex%C3%B3ticas%20e%20Cortes%20Argentinos%20e%20Uruguaios!5e0!3m2!1spt-BR!2sbr!4v1695343289425!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </article>
+       </section>
+    </main>
+   <footer>
+    <div class="footer-container">
+        <div class="pickup-location">
+            <h3>Ponto de Retirada</h3>
+            <p>Rua Fictícia, Bairro Imaginário, Cidade dos Sonhos. </p>
+            <p>Segunda a Sábado: 9h - 17h</p>
+            <p>Domingo: Entregas somente no RJ</p>
+        </div>
+
+        <div class="contacts">
+            <h3>Contatos</h3>
+            <p>Tel: +55 12345 6789</p>
+            <p>Cel: +55 12345 6789</p>
+            <p>contato@email.com</p>
+        </div>
+
+        <div class="logo-rodape">
+            <img src="/images/sabordoboilogo.png" alt="Logo do site">
+        </div>
+
+        <div class="stay-in-touch">
+            <h3>Mantenha-se Conectado</h3>
+            <a href="#"><i class="fab fa-envelope"></i> E-mail</a>
+            <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+
+        <div class="legal">
+            <h3>Legal</h3>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+        </div>
+    </div>
+    <div class="copyright-container">
+        <div class="copyright">
+            <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
